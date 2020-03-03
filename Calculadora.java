@@ -11,7 +11,7 @@ public class Calculadora{
         a = Integer.parseInt((JOptionPane.showInputDialog("Digite o primeiro numero")));
         b =Integer.parseInt((JOptionPane.showInputDialog("Digite o segundo numero ")));
 
-        num = a+b;
+        num = a-b;
 
         JOptionPane.showMessageDialog(null,"O resultado"+num);
 
